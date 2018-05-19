@@ -1,0 +1,4 @@
+invoice_generator:
+    resource: "@InvoiceGeneratorBundle/Controller/"
+    type:     annotation
+    prefix:   /

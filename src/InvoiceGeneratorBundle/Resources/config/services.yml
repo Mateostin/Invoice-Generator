@@ -1,0 +1,4 @@
+services:
+#    invoice_generator.example:
+#        class: InvoiceGeneratorBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

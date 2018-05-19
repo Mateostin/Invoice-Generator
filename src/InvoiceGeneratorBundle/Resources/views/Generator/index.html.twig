@@ -1,0 +1,264 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Invoice Generator{% endblock %}
+{% block stylesheets %}
+    <link rel="stylesheet" href="css/linearicons.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/mainindex.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+
+{% endblock %}
+
+{% block body %}
+
+    <div class="protfolio-wrap">
+
+        <!-- Start Header Area -->
+        <header class="default-header">
+            <nav class="navbar navbar-expand-lg  navbar-light">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="text-white lnr lnr-menu"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li><a href="#home">Strona Główna</a></li>
+                            <li><a href="#service">Usługi</a></li>
+                            <li><a href="#testimonial">Oceny</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- End Header Area -->
+        <!-- start banner Area -->
+        <section class="banner-area relative" id="home">
+            <div class="overlay overlay-bg"></div>
+            <div class="container">
+                <div class="row fullscreen d-flex align-items-center justify-content-center">
+                    <div class="banner-content col-lg-10">
+                        <h5 class="text-uppercase">Dostępne formaty: PDF, HTML</h5>
+                        <h1>
+                            Darmowy Generator Faktur
+                        </h1>
+                        <a href="/new" class="primary-btn text-uppercase">Wystaw Fakturę</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End banner Area -->
+        <br>
+        <!-- Start service Area -->
+        <section class="service-area section-gap relative" id="service">
+            <div class="overlay overlay-bg"></div>
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="menu-content pb-60 col-lg-10">
+                        <div class="title text-center">
+                            <h1 class="mb-10 text-white">Co możemy dla Ciebie zrobić?</h1>
+                            <p>Z nami ekspresowo wystawisz fakturę online.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End service Area -->
+
+        <!-- Start services Area -->
+        <section class="services-area pb-100" >
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="single-service">
+                            <img class="img-fluid" src="img/s1.png" alt="">
+                            <h4>Faktura PDF</h4>
+                            <p>
+                                Z łatwością wygenerujesz fakturę VAT w formacie PDF oraz za darmo pobierzesz ją na swój komputer.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="single-service">
+                            <img class="img-fluid" src="img/s2.png" alt="">
+                            <h4>Faktura na Maila</h4>
+                            <p>
+                                Jeżeli nie chcesz pobierać faktury na komputer możesz wysłać ją bezpośrednio na podany adres E-mail.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="single-service">
+                            <img class="img-fluid" src="img/s3.png" alt="">
+                            <h4>Faktura HTML</h4>
+                            <p>
+                                Oferujemy pogląd faktury w formacie HTML oraz możliwość jej edytowania po wygenerowaniu.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End services Area -->
+
+        <!-- Start review Area -->
+        <section class="review-area section-gap" id="testimonial">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="menu-content pb-60 col-lg-10">
+                        <div class="title text-center">
+                            <h1 class="mb-10">Ocena Użytkowników:</h1>
+                            <p>Sprawdź jakie opinie wystawili użytkownicy</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="single-review">
+                            <img src="img/c1.png" alt="">
+                            <div class="title d-flex flex-row">
+                                <a href="#"><h4>Jan Kowalski</h4></a>
+                                <div class="star">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                            <p>
+                                Bardzo łatwo i przyjemnie można wygenerować fakturę zupełnie za darmo! Polecam ! :)
+                            </p>
+                        </div>
+                        <div class="single-review">
+                            <img src="img/c3.png" alt="">
+                            <div class="title d-flex flex-row">
+                                <a href="#"><h4>Halina Kowalska</h4></a>
+                                <div class="star">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                </div>
+                            </div>
+                            <p>
+                                Bardzo często korzystam z opcji wysyłania na maila, działa super w porównaniu do innych serwisów.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="single-review">
+                            <img src="img/c2.png" alt="">
+                            <div class="title d-flex flex-row">
+                                <a href="#"><h4>Hulda Sutton</h4></a>
+                                <div class="star">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                            <p>
+                                 Bardzo szybko można wygenerować fakturę, ale brakuje możliwości zapisu swoich danych aby w przyszłości nie robić tego ponownie.
+                            </p>
+                        </div>
+                        <div class="single-review">
+                            <img src="img/c4.png" alt="">
+                            <div class="title d-flex flex-row">
+                                <a href="#"><h4>Ruth Burns</h4></a>
+                                <div class="star">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                </div>
+                            </div>
+                            <p>
+                                Chyba jedyny portal który oferuje darmowe generowanie faktur, które mozna nastepnie pobrać! Godne Polecenia!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- End review Area -->
+
+
+        <!-- start footer Area -->
+        <footer class="footer-area section-gap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h6>O Nas</h6>
+                            <p>
+                               Nasz portal oferuje darmowe generowanie faktur online. Proces wystawienia faktury jest bardzo prosty oraz szybki.
+                            </p>
+                            <p class="footer-text">
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5  col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h6>Newsletter</h6>
+                            <p>Jeżeli chcesz być informowany o aktualnościach wpisz poniżej swojego maila</p>
+                            <div class="" id="mc_embed_signup">
+                                <form target="_blank" novalidate="true" action="" method="get" class="form-inline">
+                                    <input class="form-control" name="EMAIL" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '" required="" type="email">
+                                    <button class="click-btn btn btn-default"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+                                    <div style="position: absolute; left: -5000px;">
+                                        <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
+                                    </div>
+
+                                    <div class="info"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6 social-widget">
+                        <div class="single-footer-widget">
+                            <h6>Follow Us</h6>
+                            <p>Let us be social</p>
+                            <div class="footer-social d-flex align-items-center">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-dribbble"></i></a>
+                                <a href="#"><i class="fa fa-behance"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End footer Area -->
+    </div>
+
+{% endblock %}
+
+{% block javascripts %}
+    <script src="js/index/vendor/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="js/index/vendor/bootstrap.min.js"></script>
+    <script src="js/index/easing.min.js"></script>
+    <script src="js/index/jquery.ajaxchimp.min.js"></script>
+    <script src="js/index/jquery.magnific-popup.min.js"></script>
+    <script src="js/index/owl.carousel.min.js"></script>
+    <script src="js/index/jquery.sticky.js"></script>
+    <script src="js/index/jquery.nice-select.min.js"></script>
+    <script src="js/index/parallax.min.js"></script>
+    <script src="js/index/mail-script.js"></script>
+    <script src="js/index/isotope.pkgd.min.js"></script>
+    <script src="js/index/main.js"></script>
+{% endblock %}
